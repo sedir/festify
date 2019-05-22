@@ -4,7 +4,7 @@ Esse é o código da aplicação Festify criado na aula de Python para a escolin
 
 ## Instalação de dependências
 
-Execute no terminal, no ambiente virtual Python:
+Na pasta do projeto e dentro do ambiente virtual Python, execute no terminal:
 
 ```
 pip install -r requirements.txt
@@ -21,6 +21,8 @@ SPOTIPY_CLIENT_ID=SEU_SPOTIPY_CLIENT_ID
 SPOTIPY_CLIENT_SECRET=SEU_SPOTIPY_CLIENT_ID
 SPOTIPY_REDIRECT_URI='http://localhost:5000/callback/'
 ```
+
+Em seguida, execute `source .env` para aplicar as variáveis de ambiente.
 
 ## Executando a aplicação
 
