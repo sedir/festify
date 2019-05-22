@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Festify</title>
+</head>
+<body>
+    <h1>Festify</h1>
+
+    {# 'Inclui o html do arquivo menu.html na página atual' #}
+    {% include 'menu.html' %}
+
+    <hr />
+
+    {# 'Insere a imagem em base64 na página' #}
+    <img src="data:image/png;base64,{{ imagem }}" />
+
+</body>
+</html>
